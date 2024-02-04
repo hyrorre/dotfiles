@@ -8,9 +8,9 @@ alias .="pwd"
 alias ..="cd .."
 alias ...="cd ../.."
 alias mkdircd='(){mkdir $1;cd $1}'
-alias ls="ls -G"
-alias la="ls -aG"
-alias ll="ls -alG"
+alias ls="ls -G --color"
+alias la="ls -aG --color"
+alias ll="ls -alG --color"
 
 alias vz="vi ~/.zshrc"
 alias sz="source ~/.zshrc"
