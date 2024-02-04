@@ -1,6 +1,7 @@
 # zsh
 autoload -Uz colors && colors
 PROMPT="%F{green}%n@%m%f %F{cyan}($(arch))%f:%F{blue}%~%f"$" "
+export LSCOLORS=cxfxcxdxbxegedabagacad
 
 # aliases
 alias .="pwd"
