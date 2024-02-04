@@ -1,0 +1,15 @@
+[core]
+    autocrlf = false
+    editor = vim
+	ignorecase = false
+[user]
+    name = hyrorre
+    email = hiromu.yamashita@hotmail.com
+[merge]
+    ff = false
+[pull]
+    ff = only
+[includeIf "gitdir:~/work/"]
+    path = ~/.gitconfig_work
+[includeIf "gitdir:~/private/"]
+    path = ~/.gitconfig_private
