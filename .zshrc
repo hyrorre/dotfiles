@@ -1,6 +1,6 @@
 # zsh
 autoload -Uz colors && colors
-PROMPT="%F{green}%n@%m%f %F{cyan}($(arch))%f:%F{blue}%~%f"$" "
+PROMPT="%F{green}%n@%m%f%f:%F{blue}%~%f"$" "
 export LSCOLORS=cxfxcxdxbxegedabagacad
 
 # aliases
@@ -9,23 +9,19 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias mkdircd='(){mkdir $1;cd $1}'
 alias ls="ls -G --color"
-alias la="ls -aG --color"
-alias ll="ls -alG --color"
+alias lsa="ls -aG --color"
+alias lsl="ls -lG --color"
+alias lsal="ls -alG --color"
 
 alias vz="vi ~/.zshrc"
+alias nz="nano ~/.zshrc"
 alias sz="source ~/.zshrc"
+alias vzp="vi ~/.zprofile"
+alias nzp="nano ~/.zprofile"
+alias szp="source ~/.zprofile"
 
 alias re='exec $SHELL -l'
 
 alias rosetta="arch -x86_64 zsh"
 
-# anyenv
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
-
-export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
-
-export PATH="/Users/yamashita/.anyenv/envs/nodenv/shims/:$PATH"
-
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+alias nr='npm run'
