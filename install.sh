@@ -4,7 +4,7 @@ DOT_DIR="$HOME/dotfiles"
 
 # clone
 if [ ! -e "$DOT_DIR" ]; then
-  git clone https://github.com/yamashita-kllc/dotfiles.git ${DOT_DIR}
+  git clone https://github.com/hyrorre/dotfiles.git ${DOT_DIR}
 fi
 
 # link
@@ -16,16 +16,16 @@ ln -s $DOT_DIR/.zshrc ~/.zshrc
 ln -s $DOT_DIR/.zprofile ~/.zprofile
 
 # zsh
-if type zsh >/dev/null 2>&1; then
-  sudo apt -y install zsh
-fi
-
-if [ "${$(echo $SHELL)##*/}" -ne "zsh" ]; then
-  chsh -s $(which zsh)
-  echo "Please restart terminal to change shell."
-fi
+# if type zsh >/dev/null 2>&1; then
+#   sudo apt -y install zsh
+# fi
+# 
+# if [ "${$(echo $SHELL)##*/}" -ne "zsh" ]; then
+#   chsh -s $(which zsh)
+#   echo "Please restart terminal to change shell."
+# fi
 
 # homebrew
-if type brew >/dev/null 2>&1; then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
+# if type brew >/dev/null 2>&1; then
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# fi
