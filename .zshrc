@@ -19,9 +19,14 @@ alias sz="source ~/.zshrc"
 alias vzp="vi ~/.zprofile"
 alias nzp="nano ~/.zprofile"
 alias szp="source ~/.zprofile"
-
 alias re='exec $SHELL -l'
-
 alias rosetta="arch -x86_64 zsh"
 
-alias nr='npm run'
+export EDITOR=nano
+
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+export VCPKG_ROOT="$HOME/vcpkg"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
