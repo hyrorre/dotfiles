@@ -14,6 +14,7 @@ ln -s $DOT_DIR/.gitconfig_private ~/.gitconfig_private
 ln -s $DOT_DIR/.gitconfig_work ~/.gitconfig_work
 ln -s $DOT_DIR/.zshrc ~/.zshrc
 ln -s $DOT_DIR/.zprofile ~/.zprofile
+ln -s $DOT_DIR/.zshenv ~/.zshenv
 
 # zsh
 # if type zsh >/dev/null 2>&1; then
