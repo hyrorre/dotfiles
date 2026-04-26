@@ -1,0 +1,4 @@
+[user]
+    name = yamashita-work
+    email = hiromu.yamashita@hotmail.com
+	signingkey = ~/.ssh/id_rsa.pub
