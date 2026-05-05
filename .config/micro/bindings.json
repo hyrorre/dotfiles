@@ -1,0 +1,10 @@
+{
+	"Ctrl-b": "CursorLeft",
+	"Ctrl-f": "CursorRight",
+	"Ctrl-n": "CursorDown",
+	"Ctrl-p": "CursorUp",
+	"Ctrl-a": "StartOfTextToggle",
+	"Ctrl-e": "EndOfLine",
+	"Ctrl-d": "Delete",
+	"Ctrl-h": "Backspace"
+}

@@ -9,19 +9,16 @@ fi
 
 # mkdir
 mkdir -p ~/.config/git
+mkdir -p ~/.config/micro
 mkdir -p ~/.ssh
 
 # link
 ln -s $DOT_DIR/.config/git/ignore ~/.config/git/ignore
+ln -s $DOT_DIR/.config/micro/bindings.json ~/.config/micro/bindings.json
+ln -s $DOT_DIR/.config/micro/settings.json ~/.config/micro/settings.json
 ln -s $DOT_DIR/.ssh/config ~/.ssh/config
-ln -s $DOT_DIR/.Brewfile ~/.Brewfile
 ln -s $DOT_DIR/.gitconfig ~/.gitconfig
 ln -s $DOT_DIR/.gitconfig_private ~/.gitconfig_private
 ln -s $DOT_DIR/.gitconfig_work ~/.gitconfig_work
 ln -s $DOT_DIR/.zshrc ~/.zshrc
 ln -s $DOT_DIR/.zprofile ~/.zprofile
-
-# homebrew
-# if type brew >/dev/null 2>&1; then
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# fi

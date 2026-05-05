@@ -1,6 +1,7 @@
 # dotfiles
 
 dotfiles for hyrorre
+Mainly for macOS
 
 ## install
 
@@ -22,4 +23,5 @@ ssh-keygen -t ed25519
 - git config
 - ssh config
 - zsh config
+- micro editor config
 - homebrew bundle file
