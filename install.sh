@@ -10,12 +10,14 @@ fi
 # mkdir
 mkdir -p ~/.config/git
 mkdir -p ~/.config/micro
+mkdir -p ~/.config/mise
 mkdir -p ~/.ssh
 
 # link
 ln -s $DOT_DIR/.config/git/ignore ~/.config/git/ignore
 ln -s $DOT_DIR/.config/micro/bindings.json ~/.config/micro/bindings.json
 ln -s $DOT_DIR/.config/micro/settings.json ~/.config/micro/settings.json
+ln -s $DOT_DIR/.config/mise/config.toml ~/.config/mise/config.toml
 ln -s $DOT_DIR/.ssh/config ~/.ssh/config
 ln -s $DOT_DIR/.gitconfig ~/.gitconfig
 ln -s $DOT_DIR/.gitconfig_private ~/.gitconfig_private

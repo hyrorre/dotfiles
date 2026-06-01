@@ -12,7 +12,11 @@ git clone https://github.com/hyrorre/dotfiles.git ~/dotfiles
 
 # optional (homebrew)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew bundle
+brew bundle --file=~/dotfiles/Brewfile
+
+# optional (mise)
+brew install mise
+mise install
 
 # optional (ssh-keygen)
 ssh-keygen -t rsa -b 4096
