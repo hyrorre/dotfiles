@@ -71,3 +71,6 @@ Temporary Items
 
 # User
 .local
+
+# Claude
+**/.claude/settings.local.json
