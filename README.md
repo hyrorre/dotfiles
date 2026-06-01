@@ -1,12 +1,13 @@
 # dotfiles
 
 dotfiles for hyrorre
-Mainly for macOS
+
+mainly for macOS
 
 ## install
 
 ```sh
-git clone https://github.com/hyrorre/popn-wiki.git ~/dotfiles
+git clone https://github.com/hyrorre/dotfiles.git ~/dotfiles
 ~/dotfiles/install.sh
 
 # optional (homebrew)
