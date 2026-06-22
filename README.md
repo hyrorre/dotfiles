@@ -22,6 +22,10 @@ mise install
 ssh-keygen -t rsa -b 4096
 ssh-keygen -t ed25519
 
+# optional (change git remote url https -> ssh)
+cd ~/dotfiles
+git remote set-url origin git@github.com:hyrorre/dotfiles.git
+
 # optional (linux codex remote-control)
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
 source ~/.zshrc
