@@ -36,3 +36,7 @@ alias re='exec $SHELL -l'
 alias rosetta="arch -x86_64 zsh"
 
 export EDITOR=micro
+
+# >>> Codex installer >>>
+export PATH="/home/hyrorre/.local/bin:$PATH"
+# <<< Codex installer <<<

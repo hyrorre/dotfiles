@@ -21,6 +21,12 @@ mise install
 # optional (ssh-keygen)
 ssh-keygen -t rsa -b 4096
 ssh-keygen -t ed25519
+
+# optional (linux codex remote-control)
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+source ~/.zshrc
+codex features enable remote_control
+codex remote-control start
 ```
 
 ## files
