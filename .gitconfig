@@ -1,6 +1,6 @@
 [core]
     autocrlf = false
-    editor = nano
+    editor = micro
     ignorecase = false
 [user]
     name = hyrorre
