@@ -2,13 +2,29 @@
 
 dotfiles for hyrorre
 
-mainly for macOS
+Windows / macOS
 
 ## install
 
 ```sh
 git clone https://github.com/hyrorre/dotfiles.git ~/dotfiles
 ~/dotfiles/install.sh
+```
+
+### Windows
+
+Use Administrator PowerShell
+
+```powershell
+git -c core.autocrlf=false clone https://github.com/hyrorre/dotfiles.git ~/dotfiles
+Set-ExecutionPolicy RemoteSigned
+~/dotfiles/install.ps1
+
+# if symbolic links are not available
+~/dotfiles/install.ps1 -Copy
+```
+
+```sh
 
 # optional (homebrew)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
